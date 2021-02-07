@@ -1,3 +1,7 @@
-console.log("it's alive bud!");
+import homepage from "./home";
 
-console.log("ta vivo mesmo?")
+const restaurantPage = (() => {
+    const contentContainer_div = document.getElementById("content");
+
+    homepage(contentContainer_div);
+})();
