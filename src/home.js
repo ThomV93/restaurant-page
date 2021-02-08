@@ -1,3 +1,4 @@
+//homepage tab generator
 const homepage = (container) => {
     //create div container
     let imgContainer = document.createElement("div");
