@@ -11,15 +11,16 @@ html, body {
     height: 80px;
     display: flex;
     justify-content: space-between;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     background-color: #f3f3f3;
+    z-index: 2;
 }
 
 #navbar > h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 100px;
+    padding-right: 150px;
     font-size: 3rem;
     height: 100%;
     width: 50%;
@@ -60,4 +61,51 @@ html, body {
 .home-bg {
     width: 40%;
     height: auto;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100vw;
+    background-color: #080806;
+}
+
+.about-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    color: #f3f3f3;
+    height: 100%;
+    width: 42%;
+    z-index: 1;
+    background-color: #080806;
+}
+
+.about-text-container > h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-text-container > p {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    padding: 0 3rem 1.5rem 3rem;
+}
+
+.about-img-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    width: 58%;
+}
+
+.about-img {
+    width: auto;
+    height: 90vh;
+    z-index: 0;
 }

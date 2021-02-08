@@ -1,1 +1,1 @@
-(()=>{"use strict";(e=>{let t=document.createElement("div");t.className="img-container";let n=document.createElement("img");n.src="plate-1.png",n.className="home-bg",t.append(n),e.append(t)})(document.getElementById("content"))})();
+(()=>{"use strict";document.getElementById("content")})();
