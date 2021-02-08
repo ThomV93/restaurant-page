@@ -1,7 +1,9 @@
+//import necessary modules
 import homepage from "./home";
 
 const restaurantPage = (() => {
+    //cache the content element
     const contentContainer_div = document.getElementById("content");
-
-    homepage(contentContainer_div);
+    //homepage function
+    //homepage(contentContainer_div);
 })();
