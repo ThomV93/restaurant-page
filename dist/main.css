@@ -67,7 +67,7 @@ html, body {
 .about-section {
     display: flex;
     justify-content: space-evenly;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     background-color: #080806;
 }
