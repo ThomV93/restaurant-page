@@ -17,11 +17,11 @@ const aboutTab = (container) => {
 
     //first paragraph
     let aboutPara1 = document.createElement("p");
-    aboutPara1.innerHTML = "KONOHA’s commitment to hospitality begins long before you sit down at our table, with keen attention to detail, warmth and hospitality, and with the goal of making happy memories for our guests.";
+    aboutPara1.innerHTML = "KONOHA’s commitment to hospitality begins long before you sit down at our table. The keen attention to detail, warmth and hospitality, has the goal of making happy memories for our guests.";
 
     //second paragraph
     let aboutPara2 = document.createElement("p");
-    aboutPara2.innerHTML = "The synergy between the chef and the kitchen is evident through his use of food as a means to share a story and reconnect guests with nature. Inspiration for the creations are often very personal and rooted in a sense of constant evolution. The wine list offers a tiered pairing as well as a curated selection of glasses and bottles from our cellar.";
+    aboutPara2.innerHTML = "The synergy between the chef and the kitchen is evident through his use of food as a means to share a story and reconnect guests with nature. Inspiration for the creations are often very personal and rooted in a sense of constant evolution. The evolution, not only of the menu, but also the everchanging scenario of our Tokyo based french restaurant";
 
     //append text content on text container
     aboutTextContainer.append(aboutTitle, aboutPara1, aboutPara2);
