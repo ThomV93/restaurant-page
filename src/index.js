@@ -2,6 +2,7 @@
 import navbar from "./navbar";
 import homepage from "./home";
 import aboutTab from "./about";
+import menuTab from "./menu";
 
 const restaurantPage = (() => {
     //cache the content element
@@ -12,9 +13,11 @@ const restaurantPage = (() => {
         //navbar function
         navbar(contentContainer_div);
         //homepage function
-        //homepage(contentContainer_div);
+        homepage(contentContainer_div);
         //About section
-        //aboutTab(contentContainer_div);
+        aboutTab(contentContainer_div);
+        //menu section
+        menuTab(contentContainer_div);
     }
 
     pageLoad();
