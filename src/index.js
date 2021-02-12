@@ -12,9 +12,9 @@ const restaurantPage = (() => {
         //navbar function
         navbar(contentContainer_div);
         //homepage function
-        homepage(contentContainer_div);
+        //homepage(contentContainer_div);
         //About section
-        aboutTab(contentContainer_div);
+        //aboutTab(contentContainer_div);
     }
 
     pageLoad();

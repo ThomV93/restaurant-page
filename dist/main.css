@@ -48,10 +48,10 @@ html, body {
 }
 
 .tab:hover {
-    color: #73a19d;
+    color: #e9b246;
     cursor: pointer;
     text-decoration: underline;
-    text-shadow: 1px 1px 2px #b1d3cd;
+    text-shadow: 1px 1px 2px #eecb87;
 }
 
 .img-container {
@@ -64,7 +64,7 @@ html, body {
 }
 
 .home-bg {
-    width: 40%;
+    width: 43%;
     height: auto;
 }
 
@@ -86,7 +86,7 @@ html, body {
     height: 100%;
     width: 42%;
     z-index: 1;
-    background-color: #080806;
+    background-color: #040c0c;
 }
 
 .about-text-container > h2 {
@@ -98,7 +98,7 @@ html, body {
     font-family: "Montserrat", sans-serif;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    padding: 0 3rem 1.5rem 3rem;
+    padding: 0 4.5rem 1.5rem 4.5rem;
 }
 
 .about-img-container {
@@ -113,4 +113,85 @@ html, body {
     width: auto;
     height: 90vh;
     z-index: 0;
+}
+
+#menu-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+#menu-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#menu-img {
+    width: 80%;
+    height: auto;
+    margin-top: 5rem;
+}
+
+#menu-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    width: 45vw;
+    height: 100vh;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 3rem;
+    padding: 0 10rem 0 0;
+}
+
+#menu-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-content-container > h2 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+#reservation-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+#reservation-container > h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+#reservation-btn {
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #FFF;
+    color: #FFF;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    position: relative;
+    text-decoration: none;
+    width: auto;
+    background: linear-gradient(to right, #fff 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    margin-top: 1rem;
+}
+
+#reservation-btn:hover {
+    background-position: left bottom;
+    color: #000;
 }
