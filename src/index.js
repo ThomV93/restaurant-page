@@ -3,6 +3,7 @@ import navbar from "./navbar";
 import homepage from "./home";
 import aboutTab from "./about";
 import menuTab from "./menu";
+import contactTab from "./contact";
 
 const restaurantPage = (() => {
     //cache the content element
@@ -14,11 +15,11 @@ const restaurantPage = (() => {
         //navbar function
         navbar(contentContainer_div);
         //nav buttons functionality
-        //navButtons();
+        navButtons();
         //homepage function
-        //homepage(contentContainer_div);
+        homepage(contentContainer_div);
         //About section
-        //aboutTab(contentContainer_div);
+        aboutTab(contentContainer_div);
     };
 
     const clearContent = () => {
@@ -46,7 +47,11 @@ const restaurantPage = (() => {
                     menuTab(contentContainer_div);
                     break;
                 case "contact":
-                    console.log(e.target.id);
+                    clearContent();
+                    navbar(contentContainer_div);
+                    navButtons();
+                    contactTab(contentContainer_div);
+                    break;
             };
         }));
     };
