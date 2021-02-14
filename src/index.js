@@ -14,11 +14,11 @@ const restaurantPage = (() => {
         //navbar function
         navbar(contentContainer_div);
         //nav buttons functionality
-        navButtons();
+        //navButtons();
         //homepage function
-        homepage(contentContainer_div);
+        //homepage(contentContainer_div);
         //About section
-        aboutTab(contentContainer_div);
+        //aboutTab(contentContainer_div);
     };
 
     const clearContent = () => {
