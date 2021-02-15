@@ -37,10 +37,10 @@ const menuTab = (container) => {
     menuSubContainer.className = "menu-tab-subcontainer"
     //menu paragraph 1
     let menuPara1 = document.createElement("p");
-    menuPara1.innerHTML = "We offer only a tasting menu.";
+    menuPara1.innerHTML = "We offer only a tasting menu that changes everyday.";
     //menu paragraph 2
     let menuPara2 = document.createElement("p");
-    menuPara2.innerHTML = "Where you will find a wide variety of products from our gardens, the sea and the land.";
+    menuPara2.innerHTML = "In it, you will find a wide variety of products from our gardens, the sea and the land.";
 
     //append para 1 and 2 to subcontainer
     menuSubContainer.append(menuPara1, menuPara2);

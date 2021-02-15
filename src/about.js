@@ -13,7 +13,7 @@ const aboutTab = (container) => {
 
     //title
     let aboutTitle = document.createElement("h2");
-    aboutTitle.innerHTML = "About us";
+    aboutTitle.innerHTML = "ABOUT US";
     aboutTitle.id = "about-reference";
 
     //first paragraph
@@ -22,7 +22,7 @@ const aboutTab = (container) => {
 
     //second paragraph
     let aboutPara2 = document.createElement("p");
-    aboutPara2.innerHTML = "The synergy between the chef and the kitchen is evident through his use of food as a means to share a story and reconnect guests with nature. Inspiration for the creations are often very personal and rooted in a sense of constant evolution. The evolution, not only of the menu, but also the everchanging scenario of our Tokyo based french restaurant";
+    aboutPara2.innerHTML = "We believe food can be used as a means to share a story and reconnect guests with nature. Inspiration for the creations are often very personal and rooted in a sense of constant evolution."
 
     //append text content on text container
     aboutTextContainer.append(aboutTitle, aboutPara1, aboutPara2);
