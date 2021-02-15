@@ -25,16 +25,11 @@ const navbar = (container) => {
     homeTab.id = "home";
     homeTab.className = "tab";
     homeTab.innerHTML = "Home";
-    //about tab
-    let aboutTab = document.createElement("li");
-    aboutTab.id = "about";
-    aboutTab.className = "tab";
-    aboutTab.innerHTML = "About";
     //menu tab
     let menuTab = document.createElement("li");
     menuTab.id = "menu";
     menuTab.className = "tab";
-    menuTab.innerHTML = "Menu";
+    menuTab.innerHTML = "Menu & Reservations";
     //contact tab
     let contactTab = document.createElement("li");
     contactTab.id = "contact";
@@ -42,7 +37,7 @@ const navbar = (container) => {
     contactTab.innerHTML = "Contact";
 
     //append all list elements
-    navTabList.append(homeTab, aboutTab, menuTab, contactTab);
+    navTabList.append(homeTab, menuTab, contactTab);
 
     //----append all to container------
     navContainer.append(navTitle, navTabList);

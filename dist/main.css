@@ -56,15 +56,40 @@ html, body {
 
 .img-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     z-index: 1;
+    box-sizing: border-box;
 }
 
 .home-bg {
+    margin-top: 10vh;
     width: 43%;
+    height: auto;
+}
+
+#arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+}
+
+#arrow-container > a {
+    display: flex;
+    justify-content: center;
+    width: 6%;
+    margin-bottom: 2vh;
+}
+
+#arrow {
+    margin-bottom: 5vh;
+    width: 40%;
     height: auto;
 }
 
@@ -133,7 +158,7 @@ html, body {
 }
 
 #menu-img {
-    width: 80%;
+    width: 72%;
     height: auto;
     margin-top: 5rem;
 }
@@ -159,21 +184,27 @@ html, body {
     flex-direction: column;
 }
 
-#menu-content-container > h2 {
-    color: #fff;
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
+.menu-text-containers {
+    width: 90%;
+}
+
+.text-section-titles {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.menu-tab-subcontainer {
+    margin-left: 3rem;
+}
+
+.menu-tab-subcontainer > p {
+    margin-left: 3rem;
 }
 
 #reservation-container {
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
-}
-
-#reservation-container > h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
 }
 
 #reservation-btn {
@@ -189,6 +220,7 @@ html, body {
     background-position: right bottom;
     transition: all .5s ease-out;
     margin-top: 1rem;
+    margin-left: 3rem;
 }
 
 #reservation-btn:hover {

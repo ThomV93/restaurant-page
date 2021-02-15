@@ -14,6 +14,7 @@ const aboutTab = (container) => {
     //title
     let aboutTitle = document.createElement("h2");
     aboutTitle.innerHTML = "About us";
+    aboutTitle.id = "about-reference";
 
     //first paragraph
     let aboutPara1 = document.createElement("p");

@@ -33,7 +33,6 @@ const restaurantPage = (() => {
         navTabsArray.map(tab => tab.addEventListener("click", e => {
             switch(e.target.id) {
                 case "home":
-                case "about":
                     clearContent();
                     navbar(contentContainer_div);
                     navButtons();
